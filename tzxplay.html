@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ZX Tape Player</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tzxplay.css?ver=2.00">
+<script type="text/javascript" src="wav.js?ver=2.00"></script>
+<script type="text/javascript" src="tzx.js?ver=2.00"></script>
+<script type="text/javascript" src="tzxplay.js?ver=2.00"></script>
+<body>
+    <div id="appHeader">ZX Tape Player</div>
+    <input id="filePicker" type="file" onchange="readFile(this)">
+    <label for="filePicker"><div class="caption">Upload .tzx</div></label>
+    <div id="streamWrapper"><audio id="stream" controls="controls" src=""></audio></div>
+    </div>
+</body>
+</html>

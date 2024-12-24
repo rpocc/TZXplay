@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    text-align:center;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+#filePicker {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+label {
+    width: 100%;
+    max-width: 40mm;
+    height: 10mm;
+    background-color: #ccc;
+    border: 1px solid;
+    border-color: #666;
+    margin: 3mm auto 3mm;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#startButton, #stopButton {
+    width: 100%;
+    max-width: 40mm;
+    height: 10mm;
+    background-color: #ccc;
+    border: 1px solid;
+    border-color: #666;
+    text-align: center;
+    margin: 3mm auto 3mm;
+    display:none;
+}
+.caption {
+    margin:2mm auto 2mm;
+    font-size: 10pt;
+    font-weight: 600;
+}
+#appHeader {
+    width: 100%;
+    background-color: #000;
+    color: #ccc;
+    padding: 1em 0 1em;
+    font-weight: 600;
+}
+#streamWrapper {
+    margin 0 3mm 0;
+    padding: 0 3mm;
+    text-align: center;
+}
+#stream {
+    display:inline-block;
+    width: 100%;
+    max-width: 150mm;
+    margin 0px auto 0px;
+}
